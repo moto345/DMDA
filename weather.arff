@@ -1,0 +1,50 @@
+@relation weather
+@attribute outlook{sunny,overcast,rainy}
+@attribute temperature real
+@attribute humidity real
+@attribute windy{TRUE,FALSE}
+@attribute play{yes,no}
+@data
+sunny,85,85,FALSE,no
+sunny,80,90,TRUE,no
+overcast,83,86,FALSE,yes
+rainy,70,96,FALSE,yes
+rainy,68,80,FALSE,yes
+rainy,65,70,TRUE,no
+overcast,64,65,TRUE,yes
+sunny,72,95,FALSE,no
+sunny,69,70,FALSE,yes
+rainy,75,80,FALSE,yes
+sunny,75,70,TRUE,yes
+overcast,72,90,TRUE,yes
+overcast,81,75,FALSE,yes
+rainy,71,91,TRUE,no
+
+
+
+
+
+@relation weather
+
+@attribute outlook {sunny,overcast,rainy}
+@attribute temperature{hot,moderate,cold} 
+@attribute humidity {high,low}
+@attribute windy {TRUE,FALSE}
+@attribute play {yes,no}
+
+@data
+sunny,hot,high,FALSE,no
+sunny,cold,low,TRUE,no
+overcast,cold,low,FALSE,yes
+rainy,cold,high,FALSE,yes
+rainy,moderate,low,FALSE,yes
+rainy,moderate,high,TRUE,no
+overcast,hot,low,TRUE,yes
+sunny,hot,high,FALSE,no
+sunny,hot,low,FALSE,yes
+rainy,moderate,high,FALSE,yes
+sunny,hot,high,TRUE,yes
+overcast,moderate,low,TRUE,yes
+overcast,cold,low,FALSE,yes
+sunny,hot,high,TRUE,yes
+rainy,cold,low,TRUE,no
