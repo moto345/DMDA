@@ -1,11 +1,9 @@
 @relation contact-lenses
-
 @attribute age 			{young, pre-presbyopic, presbyopic}
 @attribute spectacle-prescrip	{myope, hypermetrope}
 @attribute astigmatism		{no, yes}
 @attribute tear-prod-rate	{reduced, normal}
 @attribute contact-lenses	{soft, hard, none}
-
 @data
 %
 % 24 instances
@@ -34,3 +32,7 @@ presbyopic,hypermetrope,no,reduced,none
 presbyopic,hypermetrope,no,normal,soft
 presbyopic,hypermetrope,yes,reduced,none
 presbyopic,hypermetrope,yes,normal,none
+
+Procedure:-
+---------------------
+Open WEKA go to Explorer and open the arrf file and go to Associate and choose filter Apriori and change in it and save and start to view output.
