@@ -5,7 +5,6 @@
 @attribute credit-rating{fair,excellent}
 @attribute roll numeric
 @attribute buyspc{yes,no}
-
 @data
 <30,high,no,fair,12,no
 <30,high,no,excellent,23,no
@@ -20,3 +19,7 @@
 30-40,medium,no,excellent,31,yes
 30-40,high,yes,fair,32,yes
 >40,medium,no,excellent,33,no
+
+Procedure :-
+------------------
+Open WEKA go to Explorer and open arff file and go to filters and choose from supervised and unsupervised in that attribute and instance and apply filter go to edit to see changes.
