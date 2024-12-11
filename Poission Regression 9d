@@ -1,0 +1,22 @@
+input <- warpbreaks
+print(head(input))
+output <- glm(formula = breaks ~ wool + tension, data = warpbreaks, family = poisson)
+print(summary(output))
+
+
+  breaks wool tension
+1     26    A       L
+2     30    A       L
+3     54    A       L
+4     25    A       L
+5     70    A       L
+6     52    A       L
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   3.8920     0.0723  53.86  < 2e-16 ***
+woolB        -0.2055     0.0953  -2.16   0.0307 *  
+tensionM     -0.3216     0.0992  -3.24   0.0012 ** 
+tensionH     -0.5188     0.1017  -5.10  3.38e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
